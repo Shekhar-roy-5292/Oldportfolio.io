@@ -15,7 +15,6 @@
 nav{
     display: flex;
     width: 84%;
-    margin: auto;
     padding: 20px 0;
     align-items: center;
     justify-content: space-between;
@@ -23,6 +22,7 @@ nav{
 
 .logo{
     width: 100px;
+    padding-left: 10%;
     cursor: pointer;
 }
 
@@ -95,7 +95,7 @@ span{
     bottom: 40px;
 }
 
-.images:hover .girl{
+.images:hover .boy{
     left: 45%;
 }
 
@@ -112,4 +112,36 @@ span{
 
 .social a:hover{
     color: orange;
+}
+@media only screen and (max-width: 800px){
+    .hero{
+        height: 100vh;
+        background: #eff4fd;
+        display: flex;
+        flex-direction: column;
+    }
+    .images img{
+        height: 100%;
+        position: absolute;
+        left: 90%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    .images{
+        width: 30%;
+        height: 30%;
+        position: absolute;
+        bottom: 0%;
+        right: 100px;
+    }
+    nav{
+        display: flex;
+        width: 84%;
+        justify-content: space-between;
+    }
+    .social{
+        margin-left: 8%;
+        margin-top: 10px;
+    }
 }
