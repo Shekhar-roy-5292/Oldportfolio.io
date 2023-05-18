@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Poppins',sans-serif;
+  }
+  
+  body{
+    /* padding: 100px; */
+    padding-top: 66px;
+}
+
+   /* CSSS for navbar section */
+.navbar{
+  margin-bottom: 2px;
+  overflow: hidden;
+  position: fixed;
+  max-height: 25px;
+  top: 0px;
+  padding: 20px;
+  width: 100%; 
+  background: #ffffffe8; 
+  /* color: black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  z-index: 9999;
+}
+.logo{
+  width: 30%;
+  float: left;
+}
+.menu{
+  line-height: 60px;
+}
+.menu ul{
+  list-style-type: none;
+}
+
+.menu ul li{
+  display: inline;
+  padding: 1%;
+  font-weight: bold;
+}
+.container2{
+  width: 80%;
+  margin: 0 auto;
+  padding: 1%;
+}
+.img-responsive{
+  width: 100%;
+}
+.img-curve{
+  border-radius: 15px;
+}
+
+.text-right{
+  text-align: right;
+}
+.text-center{
+  text-align: center;
+}
+.text-left{
+  text-align: left;
+}
+.text-white{
+  color: white;
+}
+
+.clearfix{
+  clear: both;
+  float: none;
+}
+
+a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+a:hover{
+  color: rgb(27, 165, 181);
+}
+
+
+  .contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('../img/contact_us_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+  .contact .content{
+    max-width: 800px;
+    text-align: center;
+  }
+  .contact .content h2{
+    font-size: 40px;
+    font-weight: 500;
+    color: #ffffff;
+  }
+  .contact .content p{
+    font-weight: 300;
+    color: #ffffff;
+  }
+  .container{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+  }
+  .container .containerinfo{
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+  }
+  .container .containerinfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .container .containerinfo .box .info{
+    width: 800px;
+    padding-right: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .container .containerinfo .box  #info1{
+    padding-right: 375px;
+  }
+  .container .containerinfo .box #info2{
+    padding-right: 351px;
+  }
+  .container .containerinfo .box .icon{
+    width: 110px;
+    max-height: 130px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 50%;
+    font-size: 22px;
+    margin: 10px;
+  }
+  .container .containerinfo .box .icon .profile{
+    font-size: 14px;
+  }
+  .container .containerinfo .box .contact_medium{
+    width: 300px;
+    display:block;
+  }
+  .container .containerinfo .box .contact_medium .icon{
+    height: 50px;
+    width: 300px;
+    font-size: 40px;
+    padding: 5px;
+    background-color: transparent;
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .container .containerinfo .box .contact_medium .icon a{
+    margin-right: 10px;
+  }
+  .container .containerinfo .box .contact_medium .icon a i{
+    color: white;
+  }
+  .container .containerinfo .box .contact_medium .icon a i:hover{
+    color: blueviolet;
+  }
+  .container .containerinfo .box .icon #icon1{
+    border-radius: 50%;
+    border: 5px solid gold;
+  }
+  .container .containerinfo .box .icon #icon2{
+    border-radius: 50%;
+    border: 5px solid gold;
+  }
+  .container .containerinfo .box .icon #icon3{
+    border-radius: 50%;
+    border: 5px solid gold;
+  }
+   .container .containerinfo .box .info .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #ffffff;
+    flex-direction: column;
+    font-weight: 300;
+  }
+  .container .containerinfo .box .info .text a{
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .container .containerinfo .box .info .text a:hover{
+    color: blueviolet;
+  }
+ 
+
+  @media(max-width:991px){
+    .contact{
+        padding: 50px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container .containerinfo{
+        margin-bottom: 40px;
+    }
+    .container .containerinfo,.contactform{
+        width: 100%;
+    } 
+  }
