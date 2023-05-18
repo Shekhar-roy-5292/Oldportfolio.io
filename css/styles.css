@@ -113,7 +113,7 @@ span{
 .social a:hover{
     color: orange;
 }
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 1060px){
     .hero{
         height: 100vh;
         background: #eff4fd;
