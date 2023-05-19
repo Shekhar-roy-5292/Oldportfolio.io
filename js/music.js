@@ -14,6 +14,41 @@ var tracks = [
     name: "Bedona",
     albumPhoto: "images/track3-album-photo.jpg",
     audioFile: "mp3/track3.mp3"
+  },
+  {
+    name: "So Far Away",
+    albumPhoto: "images/track4-album-photo.jpg",
+    audioFile: "mp3/track4.mp3"
+  },
+  {
+    name: "Thik Emon Ebhabe",
+    albumPhoto: "images/track5-album-photo.jpg",
+    audioFile: "mp3/track5.mp3"
+  },
+  {
+    name: "Kya Mujhe Pyaar x Hai Dil Ye Mera",
+    albumPhoto: "images/track6-album-photo.jpg",
+    audioFile: "mp3/track6.mp3"
+  },
+  {
+    name: "Iraaday",
+    albumPhoto: "images/track7-album-photo.jpg",
+    audioFile: "mp3/track7.mp3"
+  },
+  {
+    name: "Aadat",
+    albumPhoto: "images/track8-album-photo.jpg",
+    audioFile: "mp3/track8.mp3"
+  },
+  {
+    name: "Stereo Hearts",
+    albumPhoto: "images/track9-album-photo.jpg",
+    audioFile: "mp3/track9.mp3"
+  },
+  {
+    name: "Dancing With Your Ghost",
+    albumPhoto: "images/track10-album-photo.jpg",
+    audioFile: "mp3/track10.mp3"
   }
 ];
 var audioPlayer = document.getElementById('audioPlayer');
